@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item1"
+            android:title="item1"
+            android:icon="@drawable/ic_quiz"/>
+
+        <item
+            android:id="@+id/item2"
+            android:title="item2"
+            android:icon="@drawable/ic_animation"/>
+
+        <item
+            android:id="@+id/impressum"
+            android:title="Impressum"
+            android:icon="@drawable/ic_visitenkarte"/>
+
+    </group>
+
+</menu>
