@@ -10,13 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.heifaaachenquiz.Antwort" />
-        <activity android:name="com.example.heifaaachenquiz.datenschutz" />
-        <activity android:name="com.example.heifaaachenquiz.impressum" />
-        <activity android:name="com.example.heifaaachenquiz.activity_eq" />
-        <activity android:name="com.example.heifaaachenquiz.Ende" />
-        <activity android:name="com.example.heifaaachenquiz.Spiel" />
-        <activity android:name="com.example.heifaaachenquiz.MainActivity"
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.Antwort" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.datenschutz" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.impressum" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.activity_eq" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.Ende" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.Spiel" />
+        <activity android:name="io.lxkasmehl.heifaaachenquiz.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

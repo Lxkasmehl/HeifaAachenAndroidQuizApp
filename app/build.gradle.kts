@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.heifaaachenquiz"
+    namespace = "io.lxkasmehl.heifaaachenquiz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.heifaaachenquiz"
+        applicationId = "io.lxkasmehl.heifaaachenquiz"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 7
+        versionName = "2.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

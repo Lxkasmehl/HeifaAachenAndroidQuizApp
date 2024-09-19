@@ -1,4 +1,4 @@
-package com.example.heifaaachenquiz
+package io.lxkasmehl.heifaaachenquiz
 
 import org.junit.Test
 

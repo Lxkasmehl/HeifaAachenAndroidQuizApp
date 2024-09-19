@@ -1,4 +1,4 @@
-package com.example.heifaaachenquiz
+package io.lxkasmehl.heifaaachenquiz
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -8,7 +8,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import com.example.heifaaachenquiz.R
 
 class Ende : Activity(), View.OnClickListener {
     var btnStartseite: Button? = null

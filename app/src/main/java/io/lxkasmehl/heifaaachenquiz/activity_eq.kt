@@ -1,4 +1,4 @@
-package com.example.heifaaachenquiz
+package io.lxkasmehl.heifaaachenquiz
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -9,7 +9,6 @@ import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.heifaaachenquiz.R
 
 class activity_eq : AppCompatActivity(), View.OnClickListener {
     var wV_eq: WebView? = null
@@ -24,7 +23,7 @@ class activity_eq : AppCompatActivity(), View.OnClickListener {
         wV_eq!!.settings.domStorageEnabled = true
         wV_eq!!.settings.javaScriptEnabled = true
         wV_eq!!.clearCache(true)
-        wV_eq!!.loadUrl("https://e-werk.diskstation.me/heiligtumsfahrt-quiz/vq.html")
+        wV_eq!!.loadUrl("https://quiz.heiligtumsfahrt-aachen.de/vq.php")
 
         iB_back = findViewById<View>(R.id.iB_back) as ImageButton
         iB_back!!.setOnClickListener(this)
@@ -68,6 +67,7 @@ class activity_eq : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
         val ADB = AlertDialog.Builder(this)
 
         ADB.setTitle("Video-Quiz beenden?")

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
-    tools:context="my.awesome.htfquiz.Spiel">
+    tools:context="io.lxkasmehl.heifaaachenquiz.Spiel">
 
     <include
         layout="@layout/custom_toolbar"/>
@@ -43,7 +43,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <!---<ImageView
+        <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:srcCompat="@drawable/ic_menu_gallery" />-->
+            app:srcCompat="@drawable/ic_menu_gallery" />
 
         <TextView
             android:id="@+id/textView2"

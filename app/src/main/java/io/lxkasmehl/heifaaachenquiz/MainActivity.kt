@@ -1,4 +1,4 @@
-package com.example.heifaaachenquiz
+package io.lxkasmehl.heifaaachenquiz
 
 import android.content.Intent
 import android.os.Bundle
@@ -49,8 +49,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
                 this.finish()
             }
-        }
-        when (view.id) {
             R.id.btnSpielen2 -> {
                 val intent = Intent(
                     this,
@@ -59,8 +57,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
                 this.finish()
             }
-        }
-        when (view.id) {
             R.id.impressum -> {
                 val intent = Intent(
                     this,
@@ -69,8 +65,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
                 this.finish()
             }
-        }
-        when (view.id) {
             R.id.datenschutz -> {
                 val intent = Intent(
                     this,

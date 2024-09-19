@@ -1,17 +1,17 @@
-package com.example.heifaaachenquiz
+package io.lxkasmehl.heifaaachenquiz
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.heifaaachenquiz.R
 
-class impressum : AppCompatActivity() {
+class datenschutz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_impressum)
+        setContentView(R.layout.activity_datenschutz)
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
         val first_intent = Intent(
             application,
             MainActivity::class.java
