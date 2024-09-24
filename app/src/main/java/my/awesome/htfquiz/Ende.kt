@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.example.heifaaachenquiz.R
 
 class Ende : Activity(), View.OnClickListener {
     var btnStartseite: Button? = null

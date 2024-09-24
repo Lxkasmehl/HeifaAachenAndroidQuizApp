@@ -10,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.example.heifaaachenquiz.R
 
 class Spiel : Activity(), View.OnClickListener {
     var btnAntwortEins: Button? = null
