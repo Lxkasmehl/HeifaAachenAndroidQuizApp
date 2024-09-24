@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "io.lxkasmehl.heifaaachenquiz"
+    namespace = "my.awesome.htfquiz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.lxkasmehl.heifaaachenquiz"
+        applicationId = "my.awesome.htfquiz"
         minSdk = 24
         targetSdk = 34
         versionCode = 7

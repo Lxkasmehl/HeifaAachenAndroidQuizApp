@@ -1,4 +1,4 @@
-package io.lxkasmehl.heifaaachenquiz
+package my.awesome.htfquiz
 
 import android.app.Activity
 import android.content.Intent

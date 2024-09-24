@@ -1,13 +1,13 @@
-package io.lxkasmehl.heifaaachenquiz
+package my.awesome.htfquiz
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class impressum : AppCompatActivity() {
+class datenschutz : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_impressum)
+        setContentView(R.layout.activity_datenschutz)
     }
 
     override fun onBackPressed() {
