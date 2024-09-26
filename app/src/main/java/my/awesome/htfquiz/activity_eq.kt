@@ -9,7 +9,6 @@ import android.widget.ImageButton
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import com.example.heifaaachenquiz.R
 
 class activity_eq : AppCompatActivity(), View.OnClickListener {
     var wV_eq: WebView? = null
